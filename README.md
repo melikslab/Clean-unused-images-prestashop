@@ -2,6 +2,8 @@
 
 Remove product images that are no longer linked to any product, combination or shop assignment. Useful after bulk imports via CSV, migrations or product deletions that leave behind unlinked image files and/or database records.
 
+> ⚠️ **This script only works optimally on websites that use product combinations and have images associated with those combinations.**
+
 > ⚠️ **Always back up your `img/p/` folder and database before running clean mode.**
 
 ---
